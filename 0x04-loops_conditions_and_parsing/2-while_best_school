@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #Uses for loop to
 i=0
-while [ $((i++)) -lt 10 ]
+until [ $((i++)) == 10 ]
 do
 	echo "Best School"
 done
