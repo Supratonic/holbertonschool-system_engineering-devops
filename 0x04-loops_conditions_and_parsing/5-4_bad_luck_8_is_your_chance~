@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+#Uses while loop to
+_=0
+while [ "$((_++))" -lt 10 ]
+do
+	if [ "$_" == 4 ]
+	then 
+		echo "bad luck"	
+	elif [ "$_" == 8 ]
+	then
+		echo "good luck"
+	fi
+	echo "best school"
+done
+
