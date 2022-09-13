@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#
+#Uses for loop to
 i=0
 for i in {1..10}
 do
