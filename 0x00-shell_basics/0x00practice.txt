@@ -1,0 +1,64 @@
+00
+#!/bin/bash
+pwd
+#print wording directory command (pwd)
+
+01
+#!/bin/bash
+ls
+# list command (ls)
+
+02
+#!/bin/bash
+cd
+# change directory command (cd, if not path is selected it defaults to root directory)
+
+03
+#!/bin/bash
+ls -1
+# list command with option -l (long format, ls -l)
+
+04
+#!/bin/bash
+ls -al
+# list command with options long format and all invoked (ls -la)
+
+05
+#!/bin/bash
+ls -an
+# list command with options numeric-uid-gid and all invoked (ls -na)
+
+06
+#!/bin/bash
+mkdir /tmp/my_first_directory
+# make directory command with directory and path specified
+
+07
+#!/bin/bash
+mv /tmp/betty /tmp/my_first_directory
+# move command with file and new path specified
+
+08
+#!/bin/bash
+rm /tmp/my_first_directory/betty
+# remove command with file and path specified
+
+09
+#!/bin/bash
+rmdir /tmp/my_first_directory
+# remove directory command, directory specified, opted for this instead of rm -r since directory
+# is empty
+
+10
+#!/bin/bash
+cd -
+# change directory command with previous option invoked (cd -)
+
+11
+#!/bin/bash
+ls -al . .. /boot
+# list command with all and long format options invoked for directorys, current (.), previous (..) and
+# /boot
+
+12
+
