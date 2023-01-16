@@ -1,0 +1,18 @@
+#Practice for audit on 0x01-permissions
+
+Task 0
+#!/bin/bash
+su betty
+
+Task 1
+#!/bin/bash
+id -nu
+#id -nu (options "name" and user" print the same as command: whoami
+
+Task 2
+#!/bin/bash
+groups
+# command prints all groups effective user is apart of
+
+Task 3
+
