@@ -1,2 +1,3 @@
 #!/bin/bash
-su - betty 
+# technically id (options user(-u) and name (-n) has the same stdout as whoami I command)
+id -un
