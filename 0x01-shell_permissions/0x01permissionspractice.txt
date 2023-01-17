@@ -15,4 +15,19 @@ groups
 # command prints all groups effective user is apart of
 
 Task 3
-blahblahshizzbizzomgonelasttry
+#!/bin/bash
+chown betty hello
+# command chown changes user(syntax: [Options] [owner] [:[group]] FILE
+
+Task 4
+#!/bin/bash
+touch hello
+# use touch command with options to default a new empty file
+
+Task 5
+#!/bin/bash
+chmod u+x hello
+
+Task 6
+#!/bin/bash
+
